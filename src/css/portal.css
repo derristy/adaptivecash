@@ -1,0 +1,102 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.portal__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #d3d8de;
+    padding: 20px 25px;
+}
+
+.portal__header-logo {
+    width: 32px;
+    height: 32px;
+}
+
+.portal__header-left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.portal__header-title {
+    color: #0c3060;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.portal__header-subtitle {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #5c7089;
+}
+
+.portal__header-search {
+    position: relative;
+    background: #f7f2f3;
+    width: 100%;
+    max-width: 520px;
+    border: 1px solid #cfd5db;
+}
+
+.portal__header-search__icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.portal__header-search__input {
+    display: flex;
+    height: 100%;
+    border: none;
+    background: transparent;
+    padding: 10px 0 10px 30px;
+    width: 100%;
+}
+
+.portal__header-search__input:focus {
+    outline: none;
+}
+
+.portal__header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.portal__btn {
+    background: #5a8bbb;
+    padding: 10px 15px;
+    border: 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    transition: background .3s;
+    cursor: pointer;
+}
+
+.portal__btn:hover {
+    background: #69a4de;
+}
+
+.portal__language {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #5c7089;
+    cursor: pointer;
+    font-size: 13px;
+}
